@@ -1,3 +1,41 @@
+## 1.0.0
+* Rewrote everything.
+
+## 0.9.0
+* Changed all anonymous inner classes in MainGUI class to lambdas.
+* Brand new heavy string encryption transformer.
+* Rewrote the string pool transformer.
+* Rewrote some internals including dependency injection of the Bootstrap instance instead of per-case depedency injection.
+
+## 0.8.3
+
+* Added compensation for the fact that methods with the native flag don't have instructions in them.
+* Fixed the trash classes & spigot mode warning reported by kangarko.
+
+## 0.8.2
+
+* Added warning about mixing Spigot's anti-piracy and trash classes together.
+
+## 0.8.1
+
+* Changed the CustomClassWriter a bit.
+* Heavy Flow transformer now implemented into GUI.
+* Changed up the way the heavy flow transformer works due to the old one not working whatsoever.
+
+## 0.8.0
+
+* Changed even more internals.
+* Resources can now be processed by obfuscator.
+
+## 0.7.0
+
+* Completely rewrote StackAnalyzer.
+* Changed some internals.
+
+## 0.6.1
+
+* Fixed an issue with the invokedynamic transformers which sometimes caused programs to crash with an access exception.
+
 ## 0.6.0
 
 * Added GUI console for GUI users.
